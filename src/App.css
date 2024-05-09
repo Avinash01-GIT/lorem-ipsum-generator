@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap");
+
+body {
+  font-family: "Cabin", sans-serif;
+  background-color: #cde8e5;
+}
+
+.app {
+  padding-top: 50px;
+  text-align: center;
+}
+h1 {
+  font-size: 2.5rem;
+}
+
+button {
+  width: 80px;
+  height: 100%;
+  border: none;
+  background-color: #7ab2b2;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+label {
+  font-size: 1.2rem;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  color: rgb(77, 77, 77);
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  margin-top: 50px;
+  /* border: 1px solid red; */
+}
+
+#numberOfParas {
+  width: 45px;
+  height: 85%;
+  outline: none;
+  border: 2px solid gray;
+  padding: 0;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+.text-generated {
+  padding: 60px;
+  font-size: 1.5rem;
+}
+p {
+  background-color: #eef7ff;
+  padding: 20px 10px;
+  text-align: center;
+  border-radius: 8px;
+}
